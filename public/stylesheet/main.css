@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box; }
+
+*, *::after, *::before {
+  box-sizing: inherit; }
+
+body {
+  background: #fdfdfd;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto; }
+  body::after {
+    clear: both;
+    content: "";
+    display: block; }
+  body .left {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 23.23176%; }
+    body .left:last-child {
+      margin-right: 0; }
+  body .right {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 74.41059%; }
+    body .right:last-child {
+      margin-right: 0; }
+
+/*# sourceMappingURL=main.css.map */
