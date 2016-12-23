@@ -1,1 +1,6 @@
 app.js
+config/
+webpack.config.js
+.idea
+.nvmrc
+.babelrc
