@@ -11,10 +11,11 @@ var config = {
         filename : 'bundle.js'
     },
     module : {
-        loaers : [
+        loaders : [
             {
-                test : /\.jsx?/,
-
+                test    : /\.jsx?/,
+                include : APP_DIR,
+                loader  : 'babel'
             }
         ]
     }
