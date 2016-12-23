@@ -7,6 +7,9 @@
     "url": "git@github.com:jmenglis/node-boilerplate.git",
     "type": "git"
   },
+  "scripts": {
+    "lint": "node_modules/.bin/eslint ./ --ext .jsx"
+  },
   "author": "Josh English <josh@joshenglish.com>",
   "license": "ALv2",
   "dependencies": {
