@@ -1,13 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
-export default class Cart extends Component {
-  static render() {
-    return (
-      <div>
-        <p>
-          Hello
-        </p>
-      </div>
-    );
-  }
-}
+const App = () => (
+  <div><p>Hello World</p></div>
+);
+
+export default App;

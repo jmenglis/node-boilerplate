@@ -5,5 +5,4 @@ import routes from './routes/index';
 
 render(
   <Router routes={routes} history={browserHistory} />,
-  document.getElementById('main-app'),
-);
+  document.getElementById('main-app')); // eslint-disable-line
